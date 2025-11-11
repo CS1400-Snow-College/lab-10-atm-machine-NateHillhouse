@@ -1,0 +1,15 @@
+C:\Users\nhill_mliw72r\Documents\Code_Projects\my-code-dir\lab-10-atm-machine-NateHillhouse\obj\Debug\net9.0\lab-10-atm-machine-NateHillhouse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nhill_mliw72r\Documents\Code_Projects\my-code-dir\lab-10-atm-machine-NateHillhouse\obj\Debug\net9.0\lab-10-atm-machine-NateHillhouse.AssemblyInfoInputs.cache
+C:\Users\nhill_mliw72r\Documents\Code_Projects\my-code-dir\lab-10-atm-machine-NateHillhouse\obj\Debug\net9.0\lab-10-atm-machine-NateHillhouse.AssemblyInfo.cs
+C:\Users\nhill_mliw72r\Documents\Code_Projects\my-code-dir\lab-10-atm-machine-NateHillhouse\obj\Debug\net9.0\lab-10-atm-machine-NateHillhouse.csproj.CoreCompileInputs.cache
+C:\Users\nhill_mliw72r\Documents\Code_Projects\my-code-dir\lab-10-atm-machine-NateHillhouse\obj\Debug\net9.0\lab-10-atm-machine-NateHillhouse.sourcelink.json
+C:\Users\nhill_mliw72r\Documents\Code_Projects\my-code-dir\lab-10-atm-machine-NateHillhouse\bin\Debug\net9.0\lab-10-atm-machine-NateHillhouse.exe
+C:\Users\nhill_mliw72r\Documents\Code_Projects\my-code-dir\lab-10-atm-machine-NateHillhouse\bin\Debug\net9.0\lab-10-atm-machine-NateHillhouse.deps.json
+C:\Users\nhill_mliw72r\Documents\Code_Projects\my-code-dir\lab-10-atm-machine-NateHillhouse\bin\Debug\net9.0\lab-10-atm-machine-NateHillhouse.runtimeconfig.json
+C:\Users\nhill_mliw72r\Documents\Code_Projects\my-code-dir\lab-10-atm-machine-NateHillhouse\bin\Debug\net9.0\lab-10-atm-machine-NateHillhouse.dll
+C:\Users\nhill_mliw72r\Documents\Code_Projects\my-code-dir\lab-10-atm-machine-NateHillhouse\bin\Debug\net9.0\lab-10-atm-machine-NateHillhouse.pdb
+C:\Users\nhill_mliw72r\Documents\Code_Projects\my-code-dir\lab-10-atm-machine-NateHillhouse\obj\Debug\net9.0\lab-10-atm-machine-NateHillhouse.dll
+C:\Users\nhill_mliw72r\Documents\Code_Projects\my-code-dir\lab-10-atm-machine-NateHillhouse\obj\Debug\net9.0\refint\lab-10-atm-machine-NateHillhouse.dll
+C:\Users\nhill_mliw72r\Documents\Code_Projects\my-code-dir\lab-10-atm-machine-NateHillhouse\obj\Debug\net9.0\lab-10-atm-machine-NateHillhouse.pdb
+C:\Users\nhill_mliw72r\Documents\Code_Projects\my-code-dir\lab-10-atm-machine-NateHillhouse\obj\Debug\net9.0\lab-10-atm-machine-NateHillhouse.genruntimeconfig.cache
+C:\Users\nhill_mliw72r\Documents\Code_Projects\my-code-dir\lab-10-atm-machine-NateHillhouse\obj\Debug\net9.0\ref\lab-10-atm-machine-NateHillhouse.dll
