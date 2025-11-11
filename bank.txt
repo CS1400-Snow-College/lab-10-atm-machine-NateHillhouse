@@ -1,3 +1,3 @@
-Michael, 10000, 100000
-thomas, 5126, 50000
-Steven, 6210, 4200
+Michael, 10000, 100000, false
+thomas, 5126, 50000, false
+Steven, 6210, 4200, false
