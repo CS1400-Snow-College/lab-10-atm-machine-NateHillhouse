@@ -1,35 +1,72 @@
 ﻿//List<(string name, int pin, int balance, bool locked)> information = new List<(string name, int pin, int balance, bool locked)>();
+using System.Net.NetworkInformation;
+
 Console.Clear();
 
-string? username = null;
+(string? name, Info? place) username = (null, null);
 List<Info> information = ReadFile("bank.txt");
-while (username == null) username = GetUsername();
-
-
-string? GetUsername()
+username = GetUsername();
+int tries = 0; int pin;
+do
 {
-    Console.Write("What is your username? ");
-    string? username = Console.ReadLine();
-
-    bool found = false;
-    foreach (Info item in information)
-    {
-        if (item.Username == username)
-        {
-            found = true;
-            break;
-        }
-    }
-    if (!found)
+    if (tries != 0)
     {
         Console.Clear();
-        Console.WriteLine($"The username \"{username}\" was not found. Please try again.");
-        username = null;
+        Console.WriteLine("Please try again. ");
+    }
+    pin = ReadPIN();
+    if (username.place.Pin != pin) tries++;
+}
+while (tries < 3 && username.place.Pin != pin);
+
+if (tries < 3) Console.WriteLine("success");
+else Console.WriteLine("Failed");
+
+
+
+
+
+static int ReadPIN()
+{   
+    int pin = 0; bool succesful = false;
+    while (!succesful)
+    {
+        Console.Write("What is your PIN? ");
+        string? pinstring = Console.ReadLine();
+        succesful = Int32.TryParse(pinstring, out pin);
+        Console.WriteLine();
+        Console.Clear();
+        if (succesful == false) Console.WriteLine("Please enter a number. ");
+    }
+    return pin;
+}
+
+(string? name, Info? place) GetUsername()
+{
+    while (username.name == null) 
+    {
+        Console.Write("What is your username? ");
+        username.name = Console.ReadLine();
+
+        bool found = false;
+        foreach (Info item in information)
+        {
+            if (item.Username == username.name)
+            {
+                found = true;
+                username.place = item;
+                break;
+            }
+        }
+        if (!found)
+        {
+            Console.Clear();
+            Console.WriteLine($"The username \"{username}\" was not found. Please try again.");
+            username = (null, null);
+        }
     }
     return username;
 }
-
-
 
 static List<Info> ReadFile(string location)
 {
