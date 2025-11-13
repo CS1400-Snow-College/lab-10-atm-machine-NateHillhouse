@@ -207,10 +207,28 @@ void ViewTransactions()
 }
 void Withdraw40()
 {
-
+    int withdraw = 40;
+    Console.Clear();
+    if ((username.place.Balance -= withdraw) >= 0)
+    {
+        username.place.Balance -= withdraw;
+        Console.WriteLine($"${withdraw} withdrawn successfully!");
+    }
+    else Console.WriteLine("You do not have enough funds to complete this action. ");
+    Console.WriteLine($"Your balance is: {username.place.Balance}");
 }
 void Withdraw100()
 {
+    int withdraw = 100;
+    Console.Clear();
+    if ((username.place.Balance -= withdraw) >= 0)
+    {
+        username.place.Balance -= withdraw;
+        Console.WriteLine($"${withdraw} withdrawn successfully!");
+    }
+    else Console.WriteLine("You do not have enough funds to complete this action. ");
+    Console.WriteLine($"Your balance is: {username.place.Balance}");
+
 
 }
 void EndSession()
