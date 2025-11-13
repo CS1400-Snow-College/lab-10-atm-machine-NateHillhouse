@@ -45,7 +45,7 @@ Must write all changed info, including if its been locked.
 void DisplayOptions()
 {
     Console.WriteLine("What would you like to do?");
-    string[] options = new string[] { "Check Balance", "Withdraw", "Deposit", "Display last 5 transactions", "Quick Withdraw $40", "Quick Withdraw $100", "End current session" };
+    string[] options = new string[] { "1. Check Balance", "2. Withdraw", "3. Deposit", "4. Display last 5 transactions", "5. Quick Withdraw $40", "6. Quick Withdraw $100", "7. End current session" };
     foreach (string item in options) Console.WriteLine(item);
     Console.WriteLine();
     bool success = false;
